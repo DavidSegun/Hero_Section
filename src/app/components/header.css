@@ -1,0 +1,36 @@
+.header{
+color: var(--herox-grey, #1B2124);
+font-family: Inter;
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 83.52px */
+letter-spacing: -0.72px;
+margin-bottom: 5px;
+}
+
+.container{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+width: 100%;
+}
+
+button{
+border-radius: 8px;
+background: var(--herox-blue, #0052FF);
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFFFFF;
+margin-bottom: 10px;
+width: 15%;
+cursor: pointer;
+transition: color 0.2s ease-in-out;
+}
+
+button:hover {
+color:bisque; 
+}

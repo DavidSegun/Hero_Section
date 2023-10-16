@@ -1,0 +1,35 @@
+.galleries{
+margin-top: 50px;
+flex-shrink: 0;
+display:flex;
+}
+
+
+.gallery{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+
+.gallery a{
+    background: none;
+    height: 60px;
+    z-index: 100;
+    bottom: 70px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+   
+    
+    color: rgba(255, 255, 255, 0.5);
+   
+    
+    
+}
+
+a:hover{
+    color:aliceblue;
+    background: var(--herox-blue, #0052FF);
+}
